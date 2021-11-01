@@ -1,0 +1,83 @@
+/*
+NAVBAR START
+*/
+
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1160b7;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.navbar-center {
+    color: white;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.navbar-companyName {
+    display: inline-block;
+}
+
+.navbar-logo {
+    height: 26px;
+    width: 26px;
+}
+
+
+/*
+NAVBAR END
+*/
+
+
+/*
+MAIN START
+*/
+
+.main {
+    margin-left: 15%;
+    height: 100%;
+}
+
+
+/*
+MAIN END
+*/
+
+
+/*
+TIPOGRAFIA START
+*/
+
+* {
+    font-family: 'Enriqueta', arial, serif;
+}
+
+
+/*
+TIPOGRAFIA END
+*/
+
+
+/* MQ START*/
+
+@media screen and (max-height: 450px) {
+    .navbar-companyName {
+        display: block;
+    }
+    .navbar-logo {
+        width: 40%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+
+/* MQ END */
